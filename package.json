@@ -1,0 +1,17 @@
+{
+  "name": "sdk-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "reinstall-library": "npm uninstall -S @greatminds/dp-license-sdk && npm install -S @greatminds/dp-license-sdk"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@greatminds/dp-license-sdk": "^1.9.0",
+    "axios": "^0.23.0"
+  }
+}
